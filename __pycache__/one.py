@@ -29,9 +29,8 @@ def Muins(self):
 def showbook(self):
     for x in self.Books:
         print(x)
-        print(self.Books[x]["author"]) 
-        print(self.Books[x]["price"]) 
-
+        print(self.Books[x]['Author'])  
+        print(self.Books[x]["price"])  
 
 
 
