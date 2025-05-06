@@ -2,7 +2,7 @@ class books():
     def __init__(self):
         self.name = "xiaohan"
         self.title = "x"
-        self.price = 0
+        self.price = 0                                                                 
         self.book = {}
 
     def Add(self):
@@ -25,19 +25,16 @@ def Muins(self):
         print("Plases enter a book title")
 
 
-
 def showbook(self):
     for x in self.Books:
         print(x)
         print(self.Books[x]['Author'])  
         print(self.Books[x]["price"])  
 
+def save(self):
+    
 
 
-
-
-
- 
 
 
 
