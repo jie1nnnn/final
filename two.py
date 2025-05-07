@@ -11,3 +11,7 @@ while v !="no":
 
     elif v == "no":
         c = a.minus()
+    elif v == "y":
+        e = a.showbook()
+    else:
+        print("please enter 'yes' or 'no'.")
