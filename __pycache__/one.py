@@ -1,41 +1,20 @@
-class books():
-    def __init__(self):
-        self.name = "xiaohan"
-        self.title = "x"
-        self.price = 0                                                                 
-        self.book = {}
+from one import books
+a = books()
+v = ""
+print(a.title)
 
-    def Add(self):
-        self.title = input("Enter the name of the book you add      \n")
-        self.author = input("Enter the author of the book you add       \n")
-        self.price = float(input("Enter the listing price of the book you add      \n"))
+while v !="no":
 
-        print("You have added", self title)
-        print(self.books)
- 
-def Muins(self):
-    self.title = input("Enter the name of the book you remove   \n")
-    try:
-        str(self.title)
-        if self.title in self.Book:
-          del self.Books[self.title]
-          print(self.Books)
+    v = input("would you like to add a book(yes or no)?")
+    if v == "yes":
+        c = a.Add()
 
-    except:
-        print("Plases enter a book title")
+    elif v == "no":
+        c = a.minus()
+    elif v == "y":
+        e = a.showbook()
+    elif
+    else:
+        print("please enter 'yes' or 'no'.")
 
-
-def showbook(self):
-    for x in self.Books:
-        print(x)
-        print(self.Books[x]['Author'])  
-        print(self.Books[x]["price"])  
-
-def save(self):
-
-
-
-
-
-
-
+     
