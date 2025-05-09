@@ -11,7 +11,7 @@ class books():
         self.price = float(input("Enter the listing price of the book you add."))
 
        
-        print("You have added", self title)
+        print("You have added", self.title)
         print(self.books)
  
 def Muins(self):
@@ -33,9 +33,14 @@ def showbook(self):
         print(self.Books[x]["price"])  
 
 def save(self):
-    with open("append_file.txt", "a") as file:
-       file.write(str self.Books)
-       print(f" (self.title) saved to (name)")
+    filename = input("what do you want the file to be called?")
+    with open(filename, "a") as file:
+       file.write(str(self.Books))
+       print(f" (self.title) saved to (filename)")
 
-def 
-
+def load(self):
+    filename = input("which file do you want to open?")
+    with open(filename, "f") as file:
+        print("title: ",self.title)
+        print("author: ", self.Books[self.title]["author"] )
+        print("price: ", self.Books[self.title]["price"])
