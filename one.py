@@ -20,7 +20,7 @@ def Muins(self):
         str(self.title)
         if self.title in self.Book:
           del self.Books[self.title]
-          print(self.Books)
+          print(self.Books) 
 
     except:
         print("Plases enter a book title")
@@ -44,3 +44,10 @@ def load(self):
         print("title: ",self.title)
         print("author: ", self.Books[self.title]["author"] )
         print("price: ", self.Books[self.title]["price"])
+
+
+
+
+
+
+ 
