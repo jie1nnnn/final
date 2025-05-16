@@ -9,7 +9,7 @@ while v !="no":
     if v == "yes":
         c = a.Add()
     elif v == "no":
-        c = a.minus()
+        c = a.Muins()
     elif v == "y":
         e = a.showbook()
     elif v == "show":
