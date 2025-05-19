@@ -10,6 +10,7 @@ class books():
         self.author = input("Enter the author of the book you add.")
         self.price = str(input("Enter the price of the book you add."))
 
+        self.book[self.title] = {'Author':self.author, 'price':self.price}
         print("You have added", self.title)
    
  
@@ -34,17 +35,14 @@ class books():
     def save(self):
         filename = input("what do you want the file to be called?")
         with open(filename, "a") as file:
-         for x in file:
-           print("title", self.title)
-           print("author:", self.book[self.title]["author"])
-           print("price:", self.book[self.title]["price"])
-
+         for x in self.book:
+          file.write(f"[x],self.book[x]['author'],self.book[x]['price']\n")
 
 
     def load(self):
         filename = input("which file do you want to open?")
         with open(filename, "f") as file:
-             print("title: ",self.title)
+             print("title:",self.title)
              print("author: ", self.Book[self.title]["author"] )
              print("price: ", self.Book[self.title]["price"])
 

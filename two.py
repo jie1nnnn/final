@@ -10,9 +10,9 @@ while v !="no":
         c = a.Add()
     elif v == "no":
         c = a.Muins()
-    elif v == "y":
-        e = a.showbook()
     elif v == "show":
+        e = a.showbook()
+    elif v == "save":
         b = a.save()
     else:
         print("please enter 'yes' or 'no'.")
